@@ -16,8 +16,8 @@ Follow these steps to set up and work on your project:
 
 For this project you will
 
-- write SQL statements against the `northwind.db3` database. Once you have the correct SQL Statement for each query, write it inside the _queries.sql_ file under the corresponding comment.
-- configure Knex by creating a `db-config.js` file that consumes the `knexfile.js`.
+x- write SQL statements against the `northwind.db3` database. Once you have the correct SQL Statement for each query, write it inside the _queries.sql_ file under the corresponding comment.
+x- configure Knex by creating a `db-config.js` file that consumes the `knexfile.js`.
 - write the db helper methods for the `schemes` resource in `./api/schemes/scheme-model.js`.
 
 ### Multi Table Queries
@@ -26,10 +26,10 @@ Use a graphical tool like `SQLite Studio` to open `./data/northwind.db3` and exe
 
 (Write the queries inside `./queries.sql`)
 
-- Display the ProductName and CategoryName for all products in the database. Returns 77 records.
-- Display the order Id and shipper CompanyName for all orders placed before August 9 2012. Returns 429 records.
-- Display the name and quantity of the products ordered in order with Id 10251. Sort by ProductName. Returns 3 records.
-- Display the OrderID, customer's Company Name and the employee's Last Name for every order. All columns should be labeled clearly. Returns 16,789 records.
+x- Display the ProductName and CategoryName for all products in the database. Returns 77 records.
+x- Display the order Id and shipper CompanyName for all orders placed before August 9 2012. Returns 429 records.
+x- Display the name and quantity of the products ordered in order with Id 10251. Sort by ProductName. Returns 3 records.
+x- Display the OrderID, customer's Company Name and the employee's Last Name for every order. All columns should be labeled clearly. Returns 16,789 records.
 
 ### Database Methods
 
